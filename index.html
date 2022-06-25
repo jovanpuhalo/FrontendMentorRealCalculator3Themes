@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <script defer type="text/javascript" src="js/script2.js"></script>
+    <title>Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="theme__switcher">
+          <p class="theme__switcher__title">calc</p>
+          <div class="theme__switcher__theme_title">THEME</div>
+          <div class="switcher">
+            <div class="switcher__labels">
+              <div class="switcher__label" for="first">1</div>
+              <div class="switcher__label" for="second">2</div>
+              <div class="switcher__label" for="third">3</div>
+            </div>
+            <button class="switcher__button">
+              <div class="switcher__button__circle circle-position-1"></div>
+            </button>
+          </div>
+        </div>
+        <div class="results-container">
+          <div class="first-operand"></div>
+          <div class="result">0</div>
+        </div>
+        <div class="keypads">
+          <div class="keypad number">7</div>
+          <div class="keypad number">8</div>
+          <div class="keypad number">9</div>
+          <div class="keypad keypad--del">DEL</div>
+          <div class="keypad number">4</div>
+          <div class="keypad number">5</div>
+          <div class="keypad number">6</div>
+          <div class="keypad operation keypad--plus">+</div>
+          <div class="keypad number">1</div>
+          <div class="keypad number">2</div>
+          <div class="keypad number">3</div>
+          <div class="keypad operation keypad--minus">-</div>
+          <div class="keypad number dot">.</div>
+          <div class="keypad number">0</div>
+          <div class="keypad operation keypad--divide">/</div>
+          <div class="keypad operation keypad--multiply">x</div>
+          <div class="keypad keypad--reset">RESET</div>
+          <div class="keypad keypad--equal">=</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

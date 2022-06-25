@@ -1,0 +1,23 @@
+.calculator {
+  height: 70vh;
+  width: 25vw;
+  //   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  // transition: all 0.2s;
+  @media only screen and (max-width: $bp-large) {
+    width: 40vw;
+  }
+  @media only screen and (max-width: $bp-medium) {
+    width: 60vw;
+  }
+  @media only screen and (max-width: $bp-small) {
+    height: 80vh;
+    width: 80vw;
+  }
+  // @media only screen and (max-width: $bp-mobile) {
+  //   height: 75vh;
+  //   width: 80vw;
+  // }
+}

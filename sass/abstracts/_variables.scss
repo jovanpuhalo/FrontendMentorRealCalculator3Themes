@@ -1,0 +1,43 @@
+$font-primary: "League Spartan", sans-serif;
+//Theme 1
+$color-dark-blue: hsl(222, 26%, 31%);
+$color-darker-blue: hsl(223, 31%, 20%);
+$color-very-darke-blue: hsl(224, 36%, 15%);
+
+$color-key-blue-bg: hsl(225, 21%, 49%);
+$color-key-blue-shadow: hsl(224, 28%, 35%);
+$color-key-blue-bg-hover: hsl(225, 50%, 70%);
+
+$color-key-red-bg: hsl(6, 63%, 50%);
+$color-key-red-shadow: hsl(6, 70%, 34%);
+$color-key-red-bg-hover: hsl(6, 63%, 70%);
+
+$color-key-grayish-bg: hsl(30, 25%, 89%);
+$color-key-grayish-shadow: hsl(28, 16%, 65%);
+$color-key-grayish-hover: hsl(30, 25%, 100%);
+
+$color-grayish-blue-text: hsl(221, 14%, 31%);
+$color-white-text: hsl(0, 0, 100%);
+
+//Theme 2
+$color-gray-bg: hsl(0, 0%, 90%);
+$color-grayish-red-key-bg: hsl(0, 5%, 81%);
+$color-very-light-gray: hsl(0, 0%, 93%);
+
+$color-key-dark-cyan-bg: hsl(185, 42%, 37%);
+$color-key-darker-cyan-bg: hsl(185, 58%, 25%);
+
+$color-key-orange-bg: hsl(25, 98%, 40%);
+$color-key-dark-orange-shadow: hsl(25, 99%, 27%);
+
+$color-key-grayish-yellow-bg: hsl(45, 7%, 89%);
+$color-key-grayish-orange-shadow: hsl(35, 11%, 61%);
+
+$color-text-dark-grayish-yellow: hsl(60, 10%, 19%);
+$color-text-white: hsl(0, 0, 100%);
+
+//BREAK POINTS
+$bp-large: 81.25em; //1300px
+$bp-medium: 50em; //800px
+$bp-small: 37.5em; //600px
+// $bp-mobile: 43.75em; //700px

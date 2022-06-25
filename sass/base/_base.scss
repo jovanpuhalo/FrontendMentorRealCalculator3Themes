@@ -1,0 +1,82 @@
+:root,
+:root.theme-1 {
+  // RIGHT, will work in all Sass versions.
+  --color-primary-bg: #{$color-dark-blue};
+  --color-keypads-bg: #{$color-darker-blue};
+  --color-result-bg: #{$color-very-darke-blue};
+
+  --color-key-primary-bg: #{$color-key-grayish-bg};
+  --color-key-primary-shadow: #{$color-key-grayish-shadow};
+  --color-key-primary-bg-hover: #{$color-key-grayish-hover};
+
+  --color-key-equal-bg: #{$color-key-red-bg};
+  --color-key-equal-shadow: #{$color-key-red-shadow};
+  --color-key-equal-bg-hover: #{$color-key-red-bg-hover};
+
+  --color-key-delReset-bg: #{$color-key-blue-bg};
+  --color-key-delReset-shadow: #{$color-key-blue-shadow};
+  --color-key-delReset-bg-hover: #{$color-key-blue-bg-hover};
+
+  --color-key-text: #{$color-grayish-blue-text};
+  --color-white-text: #{$color-white-text};
+  --color-text: #{$color-white-text};
+}
+
+:root.theme-2 {
+  --color-primary-bg: #{$color-gray-bg};
+  --color-keypads-bg: #{$color-grayish-red-key-bg};
+  --color-result-bg: #{$color-very-light-gray};
+
+  --color-key-primary-bg: #{$color-key-grayish-yellow-bg};
+  --color-key-primary-shadow: #{$color-key-grayish-orange-shadow};
+  --color-key-primary-bg-hover: hsl(45, 7%, 100%);
+
+  --color-key-equal-bg: #{$color-key-orange-bg};
+  --color-key-equal-shadow: #{$color-key-dark-orange-shadow};
+  --color-key-equal-bg-hover: hsl(25, 98%, 60%);
+
+  --color-key-delReset-bg: #{$color-key-dark-cyan-bg};
+  --color-key-delReset-shadow: #{$color-key-darker-cyan-bg};
+  --color-key-delReset-bg-hover: hsl(185, 42%, 57%);
+
+  --color-key-text: #{$color-text-dark-grayish-yellow};
+  --color-white-text: #{$color-white-text};
+  --color-text: #{hsl(60, 10%, 19%)};
+}
+:root.theme-3 {
+  --color-primary-bg: hsl(268, 75%, 9%);
+  --color-keypads-bg: hsl(268, 71%, 12%);
+  --color-result-bg: hsl(268, 71%, 12%);
+
+  --color-key-primary-bg: hsl(281, 89%, 26%);
+  --color-key-primary-shadow: hsl(285, 91%, 52%);
+  --color-key-primary-bg-hover: hsl(281, 89%, 46%);
+
+  --color-key-equal-bg: hsl(176, 100%, 44%);
+  --color-key-equal-shadow: hsl(177, 92%, 70%);
+  --color-key-equal-bg-hover: hsl(176, 100%, 64%);
+
+  --color-key-delReset-bg: hsl(268, 47%, 21%);
+  --color-key-delReset-shadow: hsl(290, 70%, 36%);
+  --color-key-delReset-bg-hover: hsl(268, 47%, 41%);
+
+  --color-key-text: hsl(52, 100%, 62%);
+  --color-white-text: white;
+  --color-text: hsl(52, 100%, 62%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //10px /16px=62.5---1rem= 10px
+
+  // @media only screen and (max-width: $bp-small) {
+  //   font-size: 50%;
+  // }
+}

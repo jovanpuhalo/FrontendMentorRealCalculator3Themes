@@ -1,0 +1,29 @@
+.results-container {
+  width: 100%;
+  height: 10rem;
+  border-radius: 1rem;
+  background-color: var(--color-result-bg);
+  color: var(--color-text);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 0.5rem;
+  padding-right: 2rem;
+  // padding-top: 4rem;
+  box-sizing: border-box;
+  font-size: 4rem;
+  font-weight: 700;
+
+  position: relative;
+  .first-operand {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .result {
+    height: 4.5rem;
+    width: 100%;
+    text-align: right;
+  }
+}

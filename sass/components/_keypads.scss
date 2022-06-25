@@ -1,0 +1,63 @@
+.keypads {
+  flex: 1;
+  background-color: var(--color-keypads-bg);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2rem;
+  @media only screen and (max-width: $bp-small) {
+    gap: 1.5rem;
+  }
+}
+
+.keypad {
+  color: var(--color-key-text);
+  background-color: var(--color-key-primary-bg);
+  font-size: 3rem;
+  font-weight: 700;
+
+  border-radius: 0.5rem;
+  padding-top: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 0.4rem var(--color-key-primary-shadow);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color-key-primary-bg-hover);
+  }
+  &:active {
+    background-color: var(--color-key-primary-bg-hover);
+    transform: translateY(2px);
+  }
+
+  &--reset {
+    grid-column: 1/3;
+  }
+
+  &--reset,
+  &--del {
+    color: var(--color-white-text);
+    font-size: 2.5rem;
+    background-color: var(--color-key-delReset-bg);
+    box-shadow: 0 0.4rem var(--color-key-delReset-shadow);
+    &:hover {
+      background-color: var(--color-key-delReset-bg-hover);
+    }
+  }
+
+  &--equal {
+    color: var(--color-white-text);
+    grid-column: 3/5;
+    background-color: var(--color-key-equal-bg);
+    box-shadow: 0 0.4rem var(--color-key-equal-shadow);
+    &:hover {
+      background-color: var(--color-key-equal-bg-hover);
+    }
+  }
+}
